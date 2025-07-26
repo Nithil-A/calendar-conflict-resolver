@@ -322,8 +322,7 @@ let events = [
     "reason": "No conflicts"
   }
 ]
-
----
+```
 
 ## 📝 Notes
 
