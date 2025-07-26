@@ -20,24 +20,25 @@ A Node.js + Express-based API to manage calendar events, detect scheduling confl
 ```
 calendar-conflict-resolver/
 ├── app.js                  # Express server entry point
-├── config/
-│   └── config.js           # Global config (buffer time, working hours)
-├── controllers/
-│   └── eventController.js  # Route handlers
-├── middleware/
-│   └── validateEvent.js    # Request body validation
-├── models/
-│   └── eventModels.js      # In-memory event store
-├── routes/
-│   └── eventRoutes.js      # API routes
-├── services/
-│   └── eventServices.js    # Business logic: conflict & suggestion
-├── utils/
-│   └── dateTimeUtils.js    # Date parsing, formatting, buffer logic
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
-└── README.md               # This file
+├── README.md
+├── src/
+│   ├── config/
+│   │   └── config.js           # Global config (buffer time, working hours)
+│   ├── controllers/
+│   │   └── eventController.js  # Route handlers
+│   ├── middleware/
+│   │   └── validateEvent.js    # Request body validation
+│   ├── models/
+│   │   └── eventModels.js      # In-memory event store
+│   ├── routes/
+│   │   └── eventRoutes.js      # API routes
+│   ├── services/
+│   │   └── eventServices.js    # Business logic: conflict & suggestion
+│   └── utils/
+│       └── dateTimeUtils.js    # Date parsing, formatting, buffer logic
 ```
 
 ---
